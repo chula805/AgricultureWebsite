@@ -1,0 +1,152 @@
+:root {
+    --primary:#0A7029;
+    --secondary: #FFC300;
+    --light: #F6FFF2;
+    --dark: #263A4F;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #73b346;
+    color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.nav-link.active {
+    background-color: rgb(51, 255, 0);
+    border-radius: 20px;
+    width: 100%;
+}
+
+.sidebar h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #FFC300;
+}
+
+.sidebar span{
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f0f0f0;
+}
+
+.main-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.fa-seedling {
+    color: #fff;
+    font-size: 28px;
+    margin-right: 8px;
+}
+
+.fa-home,
+.fa-chart-bar,
+.fa-users,
+.fa-cogs {
+    margin-right: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sidebar {
+        min-height: auto;
+        padding-bottom: 20px;
+    }
+
+    .sidebar h2 {
+        font-size: 20px;
+    }
+
+    .main-content {
+        padding-top: 20px;
+    }
+}
+
+
+/*farmers.php*/
+#main_title{
+    text-align: center;
+    background-color: #0A7029;
+    color: #fff;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.table{
+    margin-top: 7rem;
+}
+
+.box1 h2{
+    float: left;
+}
+
+.box1 button{
+    float: right;
+}
+
+h6{
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+
+
+h5{
+    text-align: center;
+    color: rgb(21, 255, 0);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .table thead th {
+        font-size: 12px;
+    }
+
+    .table tbody td {
+        font-size: 14px;
+    }
+}
+
+.box1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .table thead th {
+        font-size: 14px;
+    }
+
+    .table tbody td {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        max-width: 90%;
+        margin: 1.75rem auto;
+    }
+}
+
+
+/*services.php*/
+
+.service-item{
+    background-color: var(--primary);
+}
